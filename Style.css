@@ -1,0 +1,394 @@
+
+/**---------------------Header------------------*/
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+body{
+  position: relative;
+  padding-bottom: 3%;
+  max-height: 100vh;
+  background-color: #4dbed8; 
+}
+header {
+  display: flex;
+  background-color:#0a16c4bb;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.Mainlogo
+{
+  cursor: pointer;
+  width: auto;
+  height: 80px;
+
+}
+  
+  .headerlink {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    justify-content: flex-end;
+  }
+
+  .headerlink li {
+    padding: 0px 20px;
+    display: inline-block;
+  }
+
+  .headerlink li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .headerlink li a:hover {
+
+    color: rgb(206, 198, 198);
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+    border-style:dashed;
+    display: block;
+    padding: 10px 20px;
+  }
+
+.active
+{
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  
+  }
+/**---------------Home Page Body----------------------------------*/
+.cardmain {
+  float: left;
+  width: 30%;
+  padding: 120px 0px 120px 250px;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bodylink
+{
+  text-align: center;
+  text-decoration:none;
+  color: rgb(0, 0, 0);
+  
+}
+.bodylink h3
+{
+  border-style:groove;
+  border-radius: 20%;
+}
+.bodylink:hover
+{
+  color:#0a16c4bb;
+  transform: 0.5s;
+  box-shadow: #0a16c4bb;
+}
+.card
+{
+  padding: 40px;
+  transition: 0.5s;
+  width: 50%;
+  text-align: center;
+  border-radius: 30px;
+  border-style:double;
+  border-color: rgb(0, 0, 0);
+
+}
+.card:hover
+{
+  box-shadow: 7px 7px 7px 7px #0a16c4bb;
+  transition: 0.5s;
+  border-radius: 30px;
+  color: #0a16c4bb;
+}
+.homeimg
+{
+  padding: 10px 10px 10px 0px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.bodyparagraph
+{
+  padding-top: 30px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 35px;
+  color: #0a16c4bb;
+}
+.bodyparagraph h6{
+  letter-spacing: 12px;
+  color: #000000;
+}
+  /**---------------About me Page Body----------------------------------*/
+  .Paragraph {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px;
+    color: #000000;
+  
+  }
+  .line1{
+    margin: 0 45%;
+    display: block;
+    height: 3px;
+    width: 10%;
+    background: #000000;
+  }
+.myinfo
+{
+  margin: 2% 20%;
+  font-size: 15px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+  .line {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #0a16c4bb;
+    box-shadow: 10px 0 10px #000000;
+  }
+
+  .Paragraph h1{
+  margin-top: 20px;
+  font-size: 2vw;
+  color: #0a16c4bb;
+}
+.Paragraph h2{
+  margin: 20px 0px;
+  font-size: 1.5vw;
+  
+}
+.Paragraph h3{
+  margin: 10px 0;
+  color: #000000bb;
+}
+  /**---------------Main Project Page Body----------------------------------*/
+  .Projectcardmain {
+    float: left;
+    width: 10%;
+    padding: 100px 150px 120px 50px;
+  }
+  .Projectcontainer:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .Projectcontainer h1
+  {
+    margin: 20px;
+    font-size: 2vw;
+    color: #0a16c4bb;
+    text-align: center;
+  }
+  .Projectbodylink
+  {
+    text-align: center;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    
+  }
+  .Projectbodylink h3
+  {
+    border-style:groove;
+    border-radius: 20%;
+  }
+  .Projectbodylink:hover
+  {
+    color:#0a16c4bb;
+    transform: 0.5s;
+    box-shadow: #0a16c4bb;
+  }
+  .Projectcard
+  {
+    padding: 80px;
+    transition: 0.5s;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+  
+  }
+  .Projectcard:hover
+  {
+    box-shadow: 7px 7px 7px 7px #0a16c4bb;
+    transition: 0.5s;
+    border-radius: 30px;
+    color: #0a16c4bb;
+  }
+  .Projectimg
+  {
+    padding: 10px 10px 10px 0px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .Projectbodyparagraph
+  {
+    padding-top: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
+    color: #0a16c4bb;
+  }
+  .Projectbodyparagraph h6{
+    letter-spacing: 12px;
+    color: #000000;
+  }
+  /*----------------------Each and every projects-------------------------*/
+
+.eachproject
+{
+
+  padding-top: 30px;
+  
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color: #000000bb;
+  
+}
+.eachproject h1
+{
+  font-size: 60px;
+  
+}
+.eachproject h2
+{
+  padding-top: 1%;
+  font-size: 15px;
+  padding-left: 20%;
+  
+}
+.eachproject h3
+{
+  padding: 15px;
+  font-size: 15px;
+  
+}
+.eachproject p
+{
+  max-width: 75%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.eachprojectimg
+{
+
+  padding: 10px;
+  width: 13%;
+  height: 10%;
+  border-radius: 20px;
+}
+.eachprojectlink
+{ 
+  
+  
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration:none;
+  color: #ffffffbb;
+  background-color: black;
+  box-shadow: 5px 5px 10px #0a16c4bb;
+ 
+}
+.tictactoegif
+{
+  padding: 5px;
+  width: 13%;
+  height: 385px;
+  border-radius: 10px;
+}
+
+/*
+.eachprojectimg:hover
+  {
+    box-shadow: 4px 4px 4px 4px #0a16c4bb;;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+*/
+/*----------------------Footer-------------------------*/
+/*
+.footer-container
+{
+  position: relative;
+  
+  min-height: 100%;
+  background-color: #488ebd ;
+  padding-bottom: 20px;
+  
+}*/
+.Footerlogo
+{
+  padding: 3px;
+  cursor: pointer;
+  width: auto;
+  height: 15px;
+  border-radius: 25%;
+}
+.Mainfooter
+{
+  display: block;
+  text-align: center; 
+  margin-bottom: 80%;
+  
+}
+.footer
+{
+  text-align: center;
+  background-color:#0a16c4bb;
+  padding: 20px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.info {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.info h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+.info p {
+  color: #ffffff;
+}
+
+/*.footer-social
+{
+  bottom: 0;
+  width: 100%;
+  height: 2.5 rem;
+  display: block;
+
+}*/
+
+.icon {
+  text-align: center;
+  cursor: pointer;
+  color: #000000;
+  font-size: 30px;
+  margin: 0 20px;
+}
